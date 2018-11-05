@@ -1,0 +1,27 @@
+FpDebug: Width = 800 ; Height = 600
+
+***** InitGraphics *****
+
+***** Init01Instance *****
+vkEnumerateInstanceLayerProperties: Successful
+
+3 instance layers enumerated:
+0x00401046   1  'VK_LAYER_NV_optimus'  'NVIDIA Optimus layer'
+0x00400003   1  'VK_LAYER_VALVE_steam_overlay'  'Steam Overlay Layer'
+0x00400046   1  'VK_LAYER_LUNARG_standard_validation'  'LunarG Standard Validation Layer'
+vkEnumerateInstanceExtensionProperties: Successful
+
+12 extensions enumerated:
+0x00000009  'VK_EXT_debug_report'
+0x00000001  'VK_EXT_display_surface_counter'
+0x00000001  'VK_KHR_get_physical_device_properties2'
+0x00000001  'VK_KHR_get_surface_capabilities2'
+0x00000019  'VK_KHR_surface'
+0x00000006  'VK_KHR_win32_surface'
+0x00000001  'VK_KHR_device_group_creation'
+0x00000001  'VK_KHR_external_fence_capabilities'
+0x00000001  'VK_KHR_external_memory_capabilities'
+0x00000001  'VK_KHR_external_semaphore_capabilities'
+0x00000001  'VK_NV_external_memory_capabilities'
+0x00000001  'VK_EXT_debug_utils'
+vkCreateInstance: Successful
